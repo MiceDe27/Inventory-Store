@@ -1,4 +1,4 @@
-const Product = require('../models/product');
+const Product = require('../models/productsModel');
 
 exports.getAllProducts = async (req, res) => {
   try {
@@ -36,3 +36,4 @@ exports.deleteProduct = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
