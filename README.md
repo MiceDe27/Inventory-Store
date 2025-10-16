@@ -242,9 +242,6 @@ Error responses include descriptive messages:
   "message": "Product not found"
 }
 ```
-## 📄 License
-
-ISC License
 
 ## Author
-Mice De
+# Mice De
