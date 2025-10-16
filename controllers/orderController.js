@@ -1,5 +1,5 @@
-const Order = require('../models/order');
-const Product = require('../models/product');
+const Order = require('../models/orderModel');
+const Product = require('../models/productsModel');
 
 exports.getAllOrders = async (req, res) => {
   try {
@@ -45,3 +45,4 @@ exports.deleteOrder = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
