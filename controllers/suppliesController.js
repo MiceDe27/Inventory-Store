@@ -1,4 +1,4 @@
-const Supply = require('../models/supply');
+const Supply = require('../models/suppliesModel');
 
 exports.getAllSupplies = async (req, res) => {
   try {
@@ -36,3 +36,4 @@ exports.deleteSupply = async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 };
+
