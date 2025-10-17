@@ -15,17 +15,9 @@ A complete RESTful API for inventory management built with Node.js, Express, and
    ```bash
    npm install
    ```
-
-3. Create `.env` file in project root:
-   ```bash
-   MONGO_URI=mongodb://127.0.0.1:27017/inventory
-   PORT=3000
-   ```
-
-4. Start the server:
+3. Start the server:
    ```bash
    npm start        # Production
-   npm run dev      # Development with nodemon
    ```
 
 ## 📁 Project Structure
